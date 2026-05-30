@@ -1,0 +1,36 @@
+name: BTP Scanner
+
+on:
+  schedule:
+    - cron: "*/5 6-16 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: btp-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Run scanner
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT:  ${{ secrets.TG_CHAT }}
+        run: python btp_cloud.py
+      - name: Save state
+        run: |
+          git config user.name  "btp-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state.json || true
+          git commit -m "state [skip ci]" || echo "no changes"
+          git push || echo "nothing to push"
