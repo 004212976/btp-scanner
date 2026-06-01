@@ -1,3 +1,45 @@
 {
- "started": "2026-05-31T08:02:49.429642+00:00"
+ "started": "2026-05-31T08:02:49.429642+00:00",
+ "bonds": {
+  "IT0005425233": {
+   "prices": [
+    59.23
+   ],
+   "last_alert": null,
+   "prev_k": null,
+   "prev_d": null
+  },
+  "IT0005383309": {
+   "prices": [
+    94.39
+   ],
+   "last_alert": null,
+   "prev_k": null,
+   "prev_d": null
+  },
+  "IT0005474330": {
+   "prices": [],
+   "last_alert": null,
+   "prev_k": null,
+   "prev_d": null
+  },
+  "IT0005358806": {
+   "prices": [
+    98.6
+   ],
+   "last_alert": null,
+   "prev_k": null,
+   "prev_d": null
+  },
+  "IT0005217390": {
+   "prices": [
+    70.27
+   ],
+   "last_alert": null,
+   "prev_k": null,
+   "prev_d": null
+  }
+ },
+ "open_signals": [],
+ "closed_signals": []
 }
