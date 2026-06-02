@@ -3,7 +3,8 @@
  "bonds": {
   "IT0005425233": {
    "prices": [
-    59.23
+    59.23,
+    59.59
    ],
    "last_alert": null,
    "prev_k": null,
@@ -11,7 +12,8 @@
   },
   "IT0005383309": {
    "prices": [
-    94.39
+    94.39,
+    94.5
    ],
    "last_alert": null,
    "prev_k": null,
@@ -25,7 +27,8 @@
   },
   "IT0005358806": {
    "prices": [
-    98.6
+    98.6,
+    98.85
    ],
    "last_alert": null,
    "prev_k": null,
@@ -33,7 +36,8 @@
   },
   "IT0005217390": {
    "prices": [
-    70.27
+    70.27,
+    70.62
    ],
    "last_alert": null,
    "prev_k": null,
