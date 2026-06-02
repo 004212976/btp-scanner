@@ -4,7 +4,8 @@
   "IT0005425233": {
    "prices": [
     59.23,
-    59.59
+    59.59,
+    59.38
    ],
    "last_alert": null,
    "prev_k": null,
@@ -13,7 +14,8 @@
   "IT0005383309": {
    "prices": [
     94.39,
-    94.5
+    94.5,
+    94.42
    ],
    "last_alert": null,
    "prev_k": null,
@@ -28,7 +30,8 @@
   "IT0005358806": {
    "prices": [
     98.6,
-    98.85
+    98.85,
+    98.6
    ],
    "last_alert": null,
    "prev_k": null,
@@ -37,7 +40,8 @@
   "IT0005217390": {
    "prices": [
     70.27,
-    70.62
+    70.62,
+    70.45
    ],
    "last_alert": null,
    "prev_k": null,
