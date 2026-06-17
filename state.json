@@ -23,11 +23,12 @@
     58.8,
     59.36,
     59.66,
-    59.93
+    59.93,
+    59.91
    ],
    "last_alert": null,
-   "prev_k": null,
-   "prev_d": null
+   "prev_k": 98.9,
+   "prev_d": 99.6
   },
   "IT0005383309": {
    "prices": [
@@ -51,11 +52,12 @@
     94.2,
     94.59,
     94.67,
-    94.6
+    94.6,
+    94.55
    ],
    "last_alert": null,
-   "prev_k": null,
-   "prev_d": null
+   "prev_k": 83.3,
+   "prev_d": 91.2
   },
   "IT0005474330": {
    "prices": [],
@@ -85,11 +87,12 @@
     98.2,
     98.79,
     99.11,
-    99.14
+    99.14,
+    99.11
    ],
    "last_alert": null,
-   "prev_k": null,
-   "prev_d": null
+   "prev_k": 98.1,
+   "prev_d": 99.4
   },
   "IT0005217390": {
    "prices": [
@@ -113,11 +116,12 @@
     69.63,
     70.12,
     70.39,
-    71.17
+    71.17,
+    71.06
    ],
    "last_alert": null,
-   "prev_k": null,
-   "prev_d": null
+   "prev_k": 95.5,
+   "prev_d": 98.5
   }
  },
  "open_signals": [],
